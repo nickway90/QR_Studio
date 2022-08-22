@@ -34,7 +34,7 @@ while True:
             print('Error creating directory ' + program_path + 'Does the program have the proper permssions to create new direcotries on this system?')
         
         # Function call to create QR
-        generate_qr.create_qr(program_path, user_input_formatted, user_input)
+        generate.create_qr(program_path, user_input_formatted, user_input)
         print('🎉')
     
     if user_option == '2':
