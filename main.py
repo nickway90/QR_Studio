@@ -45,4 +45,4 @@ while True:
         image_file = input('Enter the location of the QR Code: ')
         
         # Fucntion call to decode a qr code
-        decode.decode(image_file)
+        decode.decode_qr(image_file)
