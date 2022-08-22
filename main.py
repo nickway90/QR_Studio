@@ -23,7 +23,7 @@ while True:
         print(user_input_formatted)
 
         # Set path variable
-        program_path = ('python-enviroments/qr-code-generator/')
+        program_path = ('qr-code-generator/')
         
         # Make new directory if one is not found.
         try:
@@ -45,4 +45,4 @@ while True:
         image_file = input('Enter the location of the QR Code: ')
         
         # Fucntion call to decode a qr code
-        decode.decode_qr(image_file)
+        decode.decode(image_file)
