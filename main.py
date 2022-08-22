@@ -1,5 +1,5 @@
 import os
-import generate_qr
+import generate
 import decode
 
 # This program generates a QR code using the inputs from the command line.
